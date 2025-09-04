@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conhecendo minha cidade</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="'icon" href="img1.png" type="image/png" />
+  <meta name="theme-color" content="#2196f3" />
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('Service Worker registrado com sucesso!'))
+        .catch(error => console.error('Erro ao registrar o Service Worker:', error));
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Conhecendo uma cidade</h1>
+    <h1>Manaus/AM</h1>
+    <h2>Capital do estado do Amazonas</h2>
+    <h3>Concluido dia 04 de setebro de 2025</h3>
+  </header>
+
+  <main>
+    <section class="conteudotop">
+      <img src="img1.png" alt="Imagem de exemplo" width="250" height="250" />
+      <p>Este site foi desemvolvido utilizando HTML e CSS, com uma ideia simples de mostrar algumas curiosidades e claro utilizando PWA.</p>
+      <a href="sobre.html">
+        <button>Sobre</button>
+      </a>
+    </section>
+
+    <section class="conteudo">
+      <h2>Por que escolhi o esse tema?</h2>
+      <ul>
+        <li>É minha cidade natal.</li>
+        <li>Tentar mostras um poco sobre a cidade</li>
+        <li>Mostras que não é so "mato"</li>
+      </ul>
+    </section>
+      
+    <section class="conteudoum">
+      <h2>Sobre o estado</h2>
+      <p>A essência do Amazonas reside na sua floresta tropical, o lar da maior bacia hidrográfica do mundo, a Bacia Amazônica. O encontro das águas dos rios Solimões (de cor barrenta) e Negro (de cor escura) é um fenômeno natural impressionante, onde as águas correm lado a lado sem se misturar por vários quilômetros.
+A capital, Manaus, está localizada às margens do Rio Negro. A cidade se desenvolveu no final do século XIX, durante o auge do ciclo da borracha, e a riqueza da época pode ser vista em sua arquitetura.
+        <div atyle="text-aling: center;">
+          <img src="img2.png" alt="Imagem de exemplo" width="500" height="250"  />
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Codificado na aula de Publicar Aplicações Web.</p>
+  </footer>
+</body>
+
+</html>

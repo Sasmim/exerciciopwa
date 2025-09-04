@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #a7a6a663;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, footer {
+    background-color: #04790e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    flex: 1;
+    padding: 1.5rem;
+  }
+  
+  .conteudotop {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .conteudotop img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .texto1 img {max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;}
+
+  button {
+    padding: 0.75rem 1.5rem;
+    background-color: #520d04a6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #520d04a6 2;
+  }
+  
+  .conteudo {
+    background-color: #a7a6a663;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .texto1{background-color: #a7a6a663;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+
+  .conteudoum img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+ }
+
+  .conteudoum {
+    background-color: #a7a6a663;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }

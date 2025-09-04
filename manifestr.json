@@ -1,0 +1,40 @@
+{
+    "name": "Conhecendo uma cidade",
+    "short_name": "MinhaCidade",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2196f3",
+    "icons": [
+      {
+        "src": "img1.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img2.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+    {
+        "src": "img3.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "img4.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+       {
+        "src": "img5.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+       {
+        "src": "img6.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
